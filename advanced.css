@@ -1,0 +1,26 @@
+.photoalbum {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 2fr);
+    gap: 20px;
+}
+
+.picture {
+    border: 1px solid black;
+    background-color: brown;
+}
+
+.twoOne {
+    grid-column-end: span 4;
+    grid-row-end: span 2;
+}
+
+.oneOne {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.twoTwo {
+    grid-column-end: span 4;
+    grid-row-end: span 4;
+}

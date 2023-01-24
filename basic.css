@@ -1,0 +1,40 @@
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    height: 10vh;
+    background-image: linear-gradient(rgb(25, 104, 179), rgb(2, 145, 133));
+}
+
+.navlink{
+    justify-self: center;
+    align-self: center;
+    width: 33%;
+    height: 50%;
+}
+
+.link1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: width 200ms, height 300ms;
+    transition-timing-function: ease;
+}
+
+.link1:hover {
+    height: 100%;
+    width: 50%;
+    background-image:-moz-radial-gradient(red, blue);
+    color: white;
+}
+
+.link2:hover {
+    color: black;
+    border: 1px solid yellow;
+    height: 60%;
+}
+
+.link3:hover {
+    visibility: hidden;
+}
+
